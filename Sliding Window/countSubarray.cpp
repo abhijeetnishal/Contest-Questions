@@ -1,4 +1,6 @@
 /*
+LeetCode Weekly 315 (Hard)
+
 You are given an integer array nums and two integers minK and maxK.
 
 A fixed-bound subarray of nums is a subarray that satisfies the following conditions:
