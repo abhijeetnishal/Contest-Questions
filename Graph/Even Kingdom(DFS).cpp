@@ -1,3 +1,5 @@
+/*
+
 CodeStudios Weekend Contest - 43 (Q-3 Medium)
 
 
@@ -41,8 +43,6 @@ Else we will form a new sub-kingdom leaving the previous one as a separate sub-k
 
 
 code:
-
-/*
     Time Complexity: O(N)
     Space Complexity: O(N)
 

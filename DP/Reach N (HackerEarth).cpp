@@ -1,3 +1,4 @@
+/*
 Asked in HackerEarth Data Strucures and Algorithm Contest (Oct-2022)
 
 Problem:
@@ -11,10 +12,10 @@ You will start from index 1 and your task is to reach index n maximizing the sum
 Sum of the path:
 Let the indices that you go through while going from index  to index  are . So, sum of the path here is equal to 
 a[1]+a[i2]...+a[n].
+*/
 
 
-
-Recursion code: O(exponential)
+//Recursion code: O(exponential)
 
 #include<bits/stdc++.h>
 #define fastio ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -60,7 +61,7 @@ int32_t main(){
 
 
 
-DP code: O(n)
+//DP code: O(n)
 
 #include<bits/stdc++.h>
 #define fastio ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);

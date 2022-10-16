@@ -1,3 +1,4 @@
+/*
 LeetCode weekly contest 314 (Hard)
 
 You are given a 0-indexed m x n integer matrix grid and an integer k. 
@@ -9,8 +10,9 @@ Since the answer may be very large, return it modulo 109 + 7.
 Input: grid = [[5,2,4],[3,0,5],[0,7,2]], k = 3
 Output: 2
 
+*/
 
-Code (Recursion)-> O(exponential):
+//Code (Recursion)-> O(exponential):
 
     int rec(int i,int j,int m,int n,int k,vector<vector<int>> &grid,int sum,int mod){
         if(i>=m || j>=n)
@@ -34,7 +36,7 @@ Code (Recursion)-> O(exponential):
     }
 
 
-Code (Memoization)-> O(n*m*k):
+//Code (Memoization)-> O(n*m*k):
 
     int rec(int i,int j,int m,int n,int k,vector<vector<int>> &grid,int sum,int mod,vector<vector<vector<int>>> &dp){
         if(i>=m || j>=n)
